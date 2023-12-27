@@ -11,7 +11,7 @@ function Banner2(){
     return(
         <div className="flex flex-col justify-center items-center  ">
                 <p className="text-4xl text-gray-800 font-semibold p-10 ">Top Categories to choose from</p>
-                <div className=" w-[350px] sm:grid p-5 sm:w-[85%]  gap-16 space-y-16">
+                <div className=" w-[390px] sm:grid p-5 sm:w-[85%]  gap-16 space-y-16">
                 <div className="sm:flex pt-14 bg-gradient-to-b from-orange-200 to-gray-200 rounded-md">
                     
                 <img src={Image} alt="1" className=" p-5" />
