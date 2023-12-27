@@ -12,7 +12,7 @@ function Footer(){
             <div className="flex flex-col gap-5">
                 <p className="text-3xl text-gray-900">Shop Non-Stop on Meesho</p>
                 <p className="text-gray-600">Trusted by more than 1 Crore Indians<br/>Cash on Delivery | Free Delivery</p>
-                <p className="flex gap-3"><img src={Image} alt="play" className="w-44 h-15"/>
+                <p className="space-y-3 sm:flex gap-3"><img src={Image} alt="play" className="w-44 h-15"/>
                 <img src={Image2} alt="app" className="w-44 h-15"/></p>
             </div>
             <ul className="text-gray-600 font-medium space-y-5">
