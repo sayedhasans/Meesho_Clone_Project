@@ -12,7 +12,7 @@ function Navbar({len}){
     return(
        <div className="flex p-1 justify-evenly sticky top-0 bg-white ">
         <div dir="ltr" className="flex  items-center relative">
-            <img src={Image}  alt="" className=" h-[100px] pe-8"/>
+            <img src={Image}  alt="" className=" h-[50px] sm:h-[100px] pe-8"/>
             <CiSearch className=" hidden sm:block text-3xl absolute left-[205px] text-gray-400"/>
             <input type="text" placeholder="Try Saree,Kurti or Search by Product Code" className="w-[80px] sm:w-[400px] p-3 sm:px-12 outline-none border-2 border-gray-400 rounded-md" />
             </div>
@@ -30,7 +30,7 @@ function Navbar({len}){
             <p className="border-r-2 border-gray-400 p-2 px-3">Become a Supplier</p>
             <p className="border-r-2 border-gray-400 p-2 px-3">Newsroom</p>
             </div>
-            <div className=" group relative flex  flex-col items-center justify-center text-lg hover:text-pink-700 hover:border-b-2 border-pink-700">
+            <div className=" hidden sm:group relative sm:flex  flex-col items-center justify-center text-lg hover:text-pink-700 hover:border-b-2 border-pink-700">
                 <p><BsPerson /></p>
                 <p>Profile</p>
                 <div className=" hidden group-hover:block bg-white  absolute top-36 w-[250px] z-50 border-2">
