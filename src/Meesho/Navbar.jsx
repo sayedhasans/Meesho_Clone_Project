@@ -46,7 +46,7 @@ function Navbar({len}){
             </div>
             <div dir="rtl" className="flex  flex-col items-center justify-center text-lg tex-lg">
                 <p className="ps-14"><BsCart /></p>
-                <Link to ="/cart"  className="ps-14"> <span className="bg-pink-200 p-1 border-2 text-sm absolute top-2 rounded-full">{len}</span>Cart</Link>
+                <Link to ="/cart"  className="ps-14"> <span className="absolute sm:bg-pink-200 p-1 sm:border-2 text-sm sm:absolute top-2 rounded-full">{len}</span>Cart</Link>
             </div>
 
        </div>
