@@ -30,7 +30,7 @@ function Navbar({len}){
             <p className="border-r-2 border-gray-400 p-2 px-3">Become a Supplier</p>
             <p className="border-r-2 border-gray-400 p-2 px-3">Newsroom</p>
             </div>
-            <div className=" hidden sm:group relative sm:flex  flex-col items-center justify-center text-lg hover:text-pink-700 hover:border-b-2 border-pink-700">
+            <div className=" hidden group relative sm:flex  flex-col items-center justify-center text-lg hover:text-pink-700 hover:border-b-2 border-pink-700">
                 <p><BsPerson /></p>
                 <p>Profile</p>
                 <div className=" hidden group-hover:block bg-white  absolute top-36 w-[250px] z-50 border-2">
