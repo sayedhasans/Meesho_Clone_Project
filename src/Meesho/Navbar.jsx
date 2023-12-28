@@ -19,7 +19,7 @@ function Navbar({len}){
             <div className="hidden sm:flex items-center gap-4 text-lg relative ">
             <div className="group flex items-center gap-4 text-lg hover:text-pink-700 hover:border-b-2 border-pink-700  ">
             <TfiMobile className="gap-5"/>
-            <p className="border-r-2 border-gray-400 p-2 px-3 ">Download App</p>
+            <p className="border-r-2 border-gray-400 p-2 ">Download App</p>
             <div className=" hidden group-hover:block absolute top-36 bg-white p-6 z-50 border-2 ">
                 <p className="text-gray-800 mb-3">Download From</p>
                 <img src={Image2} alt="gplay" className="h-10  " />
@@ -27,8 +27,8 @@ function Navbar({len}){
             </div>
             </div>
 
-            <p className="border-r-2 border-gray-400 p-2 px-3">Become a Supplier</p>
-            <p className="border-r-2 border-gray-400 p-2 px-3">Newsroom</p>
+            <p className="border-r-2 border-gray-400 p-2 ">Become a Supplier</p>
+            <p className="border-r-2 border-gray-400 p-2 ">Newsroom</p>
             </div>
             <div className=" hidden group relative sm:flex  flex-col items-center justify-center text-lg hover:text-pink-700 hover:border-b-2 border-pink-700">
                 <p><BsPerson /></p>
